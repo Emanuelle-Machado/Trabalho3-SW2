@@ -1,0 +1,141 @@
+/* Fontes: */
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Russo";
+    src: url('fontes/RussoOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Permanent";
+    src: url('fontes/PermanentMarker-Regular.ttf') format('truetypr');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Concert";
+    src: url('fontes/ConcertOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+paleta de cores:
+.color1 { #40ffdc };
+.color2 { #00a9d4 };
+.color3 { #1c3166 };
+.color4 { #240047 };
+.color5 { #40ffdc };
+*/
+
+body {
+    background-color: #00a9d4;
+}
+
+header {
+    background-image: linear-gradient(#1c3166 , #00a9d4);
+    padding: 30px;
+}
+
+header > h1 {
+    color: #1c0021;
+    text-align: center;
+    font-family: "Russo";
+    font-size: 60px;
+}
+
+.placar {
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: black;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: #33ddbd;
+    color: black;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computador-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.resultado {
+    font-size: 40px;
+    color: #240047;
+}
+
+.resultado > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Permanent";
+}
+
+.escolhas {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.escolha {
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.escolha:hover {
+    cursor: pointer;
+    background: #0083a4;
+}
+
+#mensagem-action {
+    text-align: center;
+    color: #240047;
+    font-family: "Concert";
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* Brilhos: */
+.brilho-verde {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.brilho-vermelho {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.brilho-cinza {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
