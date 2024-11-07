@@ -33,4 +33,4 @@ https://trabalho3-sw-2.vercel.app
 ## Aprendizados
 
 Esse projeto foi o inicio de minha jornada na programação. Com ele aprendi funcionalidades do Javascript, Layout em Html e estilização com Css.
-
+Trabalho 3 para a matéria de Sitios web 2.
